@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/*以下、テンプレート
+Theme Name: portfolio
+Theme URI: テーマのURLを記入します
+Author: テーマの作者（組織名）を記入します
+Author URI: テーマの作者のURLを記入します
+Description: ここにテーマの説明文を記入します
+Version: 1.0
+*/
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "游ゴシック", "Yu Gothic", "ＭＳ Ｐゴシック", "MS PGothic";
+  font-size: 16px;
+  color: #1E1F1F;
+}
+body h1,
+body h2,
+body h3,
+body h4 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 16px;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+body ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
+body ul li {
+  list-style-type: none;
+}
+body p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+body .inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+body header {
+  height: 0;
+}
+body header .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #707070;
+  font-size: 20px;
+  padding-top: 20px;
+}
+body header .header-inner h1 a {
+  border: 1px solid #707070;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body header .header-inner nav ul {
+  display: flex;
+}
+body header .header-inner nav ul li:first-child {
+  margin-right: 50px;
+}
+body main .main-visual {
+  background-image: url(../images/main-visual.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0;
+}
+body main .main-visual .main-message {
+  padding-top: 40vh;
+}
+body main .main-visual .main-message h2 {
+  font-size: 50px;
+}
+body main .main-visual .main-message .main-p {
+  font-size: 12px;
+}
+body main .main-visual.on {
+  opacity: 1;
+}
+body main h2.title {
+  font-size: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 30px auto;
+}
+body main #portfolio {
+  background-color: #F3ECE4;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+body main #portfolio .portfolio-inner .portfolio-all h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div {
+  width: 48%;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div a {
+  text-align: center;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div a img {
+  width: 100%;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div.on {
+  opacity: 1;
+}
+body main #portfolio .portfolio-inner .website {
+  margin-bottom: 40px;
+}
+body main #portfolio .portfolio-inner .skill {
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: 0;
+}
+body main #portfolio .portfolio-inner .skill .skill-inner {
+  padding: 50px 30px;
+}
+body main #portfolio .portfolio-inner .skill .skill-inner h3 {
+  font-size: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 10px auto;
+}
+body main #portfolio .portfolio-inner .skill .skill-inner .skill-column {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+body main #portfolio .portfolio-inner .skill .skill-inner .skill-column p {
+  line-height: 2.1;
+  text-align: left;
+}
+body main #portfolio .portfolio-inner .skill.on {
+  opacity: 1;
+}
+body main .lb-image {
+  width: 100% !important;
+}
+body main #about {
+  background-color: #DCD1C8;
+}
+body main #about .about-inner {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+body main #about .about-inner .about-image {
+  margin: 0 auto 30px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  opacity: 0;
+}
+body main #about .about-inner .about-image.on {
+  opacity: 1;
+}
+body main #about .about-inner .info {
+  margin-bottom: 40px;
+  opacity: 0;
+  line-height: 1.8;
+}
+body main #about .about-inner .info p {
+  margin: 0 auto;
+  width: 250px;
+}
+body main #about .about-inner .info.on {
+  opacity: 1;
+}
+body main #about .about-inner .career {
+  padding: 0 30px;
+  opacity: 0;
+}
+body main #about .about-inner .career p {
+  max-width: 700px;
+  line-height: 2.1;
+  margin: 0 auto;
+}
+body main #about .about-inner .career.on {
+  opacity: 1;
+}
+body footer {
+  background-image: url(/images/footer-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+body footer .footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #707070;
+  padding-top: 50px;
+}
+body footer .footer-inner h1 a {
+  border: 1px solid #707070;
+  padding: 10px;
+  font-size: 12px;
+}
+body footer .footer-inner nav ul {
+  display: flex;
+}
+body footer .footer-inner nav ul li {
+  font-size: 14px;
+}
+body footer .footer-inner nav ul li:first-child {
+  margin-right: 30px;
+}/*# sourceMappingURL=style.css.map */

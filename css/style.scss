@@ -1,0 +1,285 @@
+/*以下、テンプレート
+Theme Name: portfolio
+Theme URI: テーマのURLを記入します
+Author: テーマの作者（組織名）を記入します
+Author URI: テーマの作者のURLを記入します
+Description: ここにテーマの説明文を記入します
+Version: 1.0
+*/
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif, 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', ;
+  font-size: 16px;
+  color: #1E1F1F;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .inner {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 0;
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #707070;
+      font-size: 20px;
+      padding-top: 20px;
+
+      h1 {
+        a {
+          border: 1px solid #707070;
+          padding: 10px;
+          width: fit-content;
+        }
+      }
+
+      nav {
+        ul {
+          display: flex;
+
+          li:first-child {
+            margin-right: 50px;
+          }
+        }
+      }
+    }
+
+  }
+
+  main {
+
+    .main-visual {
+      background-image: url(../images/main-visual.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      opacity: 0;
+
+      .main-message {
+        padding-top: 40vh;
+
+        h2 {
+          font-size: 50px;
+        }
+
+        .main-p {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .main-visual.on {
+      opacity: 1;
+    }
+
+    h2.title {
+      font-size: 30px;
+      width: fit-content;
+      margin: 0 auto 30px auto;
+    }
+
+    #portfolio {
+      background-color: #F3ECE4;
+      padding-top: 100px;
+      padding-bottom: 130px;
+
+      .portfolio-inner {
+
+        .portfolio-all {
+
+          h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+
+          .portfolio-column {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            div {
+              width: 48%;
+              margin-bottom: 30px;
+              opacity: 0;
+
+              a {
+                text-align: center;
+
+                img {
+                  width: 100%;
+                }
+              }
+            }
+
+            div.on {
+              opacity: 1;
+
+            }
+          }
+
+        }
+
+        .website {
+          margin-bottom: 40px;
+        }
+
+        .skill {
+          background-color: #fff;
+          border-radius: 10px;
+          opacity: 0;
+
+          .skill-inner {
+            padding: 50px 30px;
+
+            h3 {
+              font-size: 30px;
+              width: fit-content;
+              margin: 0 auto 10px auto;
+            }
+
+            .skill-column {
+              width: 90%;
+              text-align: center;
+              margin: 0 auto;
+
+              p {
+                line-height: 2.1;
+                text-align: left;
+              }
+            }
+          }
+        }
+
+        .skill.on {
+          opacity: 1;
+        }
+      }
+    }
+
+    .lb-image {
+      width: 100% !important;
+    }
+
+    #about {
+      background-color: #DCD1C8;
+
+      .about-inner {
+        padding-top: 100px;
+        padding-bottom: 130px;
+
+        .about-image {
+          margin: 0 auto 30px auto;
+          width: fit-content;
+          opacity: 0;
+        }
+
+        .about-image.on {
+          opacity: 1;
+        }
+
+        .info {
+          margin-bottom: 40px;
+          opacity: 0;
+          line-height: 1.8;
+
+          p {
+            margin: 0 auto;
+            width: 250px;
+          }
+        }
+
+        .info.on {
+          opacity: 1;
+        }
+
+        .career {
+          padding: 0 30px;
+          opacity: 0;
+
+          p {
+            max-width: 700px;
+            line-height: 2.1;
+            margin: 0 auto;
+          }
+        }
+
+        .career.on {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-image: url(/images/footer-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #707070;
+      padding-top: 50px;
+
+      h1 {
+        a {
+          border: 1px solid #707070;
+          padding: 10px;
+          font-size: 12px;
+        }
+      }
+
+      nav {
+        ul {
+          display: flex;
+
+          li {
+            font-size: 14px;
+          }
+
+          li:first-child {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+  }
+}

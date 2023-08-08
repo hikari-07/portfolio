@@ -1,0 +1,72 @@
+body {
+
+  @media screen and (max-width: 1000px) {
+    .inner {
+      margin: 0 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .inner {
+      margin: 0 20px;
+    }
+
+    main {
+      #portfolio {
+        .portfolio-inner {
+          .skill {
+            .skill-inner {
+              .skill-column {
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #about {
+        .about-inner {
+          .career {
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:480px) {
+    main {
+      #portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .portfolio-inner {
+          .portfolio-all {
+            .portfolio-column {
+              display: block;
+
+              div {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      #about {
+        .about-inner {
+          padding-top: 80px;
+          padding-bottom: 100px;
+
+          .career {
+            padding: 0px;
+          }
+        }
+      }
+    }
+  }
+}

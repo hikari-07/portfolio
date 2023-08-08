@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+  body .inner {
+    margin: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .inner {
+    margin: 0 20px;
+  }
+  body main #portfolio .portfolio-inner .skill .skill-inner .skill-column p {
+    font-size: 14px;
+  }
+  body main #about .about-inner .career p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body main #portfolio {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  body main #portfolio .portfolio-inner .portfolio-all .portfolio-column {
+    display: block;
+  }
+  body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div {
+    width: 100%;
+  }
+  body main #about .about-inner {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  body main #about .about-inner .career {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
