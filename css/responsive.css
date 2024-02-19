@@ -13,8 +13,52 @@
   body main #about .about-inner .career p {
     font-size: 14px;
   }
+  body footer {
+    height: 120px;
+  }
+  body footer .footer-inner {
+    padding-top: 40px;
+  }
+  #works main .works-top {
+    padding: 30px 0;
+  }
+  #works main .works-image {
+    margin-bottom: 70px;
+  }
+  #works main .works-image .url {
+    font-size: 13px;
+  }
+  #works main .overview h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  #works main .overview .overview-inner {
+    padding: 54px 30px;
+    margin: 0 auto;
+  }
+  #works main .overview .overview-inner section {
+    margin-bottom: 50px;
+  }
+  #works main .overview .overview-inner section h4 {
+    font-size: 15px;
+    width: 180px;
+  }
+  #works main .overview .overview-inner section p {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 1.7;
+  }
 }
 @media screen and (max-width: 480px) {
+  body header .header-inner h1 {
+    font-size: 13px;
+  }
+  body header .header-inner nav ul li:first-child {
+    margin-right: 25px;
+  }
+  body header .header-inner nav ul li {
+    font-size: 14px;
+  }
   body main #portfolio {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -31,5 +75,49 @@
   }
   body main #about .about-inner .career {
     padding: 0px;
+  }
+  body footer {
+    height: 100px;
+    background-size: auto;
+  }
+  body footer .footer-inner {
+    padding-top: 30px;
+  }
+  body footer .footer-inner h1 {
+    font-size: 10px;
+  }
+  #works main .works-top p {
+    font-size: 12px;
+  }
+  #works main .works-top h2 {
+    font-size: 16px;
+  }
+  #works main .works-image {
+    margin-bottom: 60px;
+  }
+  #works main .works-image .image {
+    width: 85%;
+  }
+  #works main .works-image .url {
+    font-size: 11px;
+  }
+  #works main .overview {
+    margin-bottom: 60px;
+  }
+  #works main .overview h3 {
+    font-size: 20px;
+  }
+  #works main .overview .overview-inner {
+    padding: 40px 20px;
+  }
+  #works main .overview .overview-inner section {
+    margin-bottom: 40px;
+  }
+  #works main .overview .overview-inner section h4 {
+    font-size: 14px;
+  }
+  #works main .overview .overview-inner section p {
+    font-size: 13px;
+    margin-left: 4px;
   }
 }/*# sourceMappingURL=responsive.css.map */

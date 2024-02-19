@@ -1,15 +1,15 @@
-(function($) {
-  $(function() {
+(function ($) {
+  $(function () {
 
     // アニメーション速度
-    const transition = 1000; // ミリ秒
+    const transition = 500; // ミリ秒
 
     // 変数
     const windowHeight = $(window).height();
     let targets = [];
 
     // ターゲットにCSSアニメーションを追加
-    $('[data-scroll-on]').each(function() {
+    $('[data-scroll-on]').each(function () {
       $(this).css('transition', (transition / 1000) + 's');
     });
 
@@ -19,7 +19,7 @@
     $(window).on('load', getPositions()); // 画像などが完全に読み込まれてから
     function getPositions() {
       targets = [];
-      $('[data-scroll-on]').each(function() {
+      $('[data-scroll-on]').each(function () {
         const value = $(this).data('scroll-on') || 0.3;
         const top = $(this).offset().top;
         targets.push({
@@ -31,11 +31,11 @@
     }
 
     // スクロール時の処理
-    $(window).on('load scroll', function() {
+    $(window).on('load scroll', function () {
       const scroll = $(window).scrollTop();
-      $.each(targets, function(index, target) {
+      $.each(targets, function (index, target) {
         if (target.amount <= scroll) {
-          if (! target.selector.hasClass('on')) {
+          if (!target.selector.hasClass('on')) {
             target.selector.addClass('on');
           }
         } else {
@@ -47,4 +47,4 @@
     });
 
   });
-})( jQuery );
+})(jQuery);

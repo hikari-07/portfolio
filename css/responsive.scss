@@ -1,12 +1,13 @@
-body {
-
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+  body {
     .inner {
       margin: 0 20px;
     }
   }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  body {
     .inner {
       margin: 0 20px;
     }
@@ -36,9 +37,82 @@ body {
         }
       }
     }
+
+    footer {
+      height: 120px;
+
+      .footer-inner {
+        padding-top: 40px;
+      }
+    }
   }
 
-  @media screen and (max-width:480px) {
+  #works {
+    main {
+      .works-top {
+        padding: 30px 0;
+      }
+
+      .works-image {
+        margin-bottom: 70px;
+
+        .url {
+          font-size: 13px;
+        }
+      }
+
+      .overview {
+        h3 {
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+
+        .overview-inner {
+          padding: 54px 30px;
+          margin: 0 auto;
+
+          section {
+            margin-bottom: 50px;
+
+            h4 {
+              font-size: 15px;
+              width: 180px;
+            }
+
+            p {
+              font-size: 14px;
+              margin-left: 10px;
+              line-height: 1.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  body {
+    header {
+      .header-inner {
+        h1 {
+          font-size: 13px;
+        }
+
+        nav {
+          ul {
+            li:first-child {
+              margin-right: 25px;
+            }
+
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
     main {
       #portfolio {
         padding-top: 80px;
@@ -64,6 +138,70 @@ body {
 
           .career {
             padding: 0px;
+          }
+        }
+      }
+    }
+
+    footer {
+      height: 100px;
+      background-size: auto;
+
+      .footer-inner {
+        padding-top: 30px;
+
+        h1 {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  #works {
+    main {
+      .works-top {
+        p {
+          font-size: 12px;
+        }
+
+        h2 {
+          font-size: 16px;
+        }
+      }
+
+      .works-image {
+        margin-bottom: 60px;
+
+        .image {
+          width: 85%;
+        }
+
+        .url {
+          font-size: 11px;
+        }
+      }
+
+      .overview {
+        margin-bottom: 60px;
+
+        h3 {
+          font-size: 20px;
+        }
+
+        .overview-inner {
+          padding: 40px 20px;
+
+          section {
+            margin-bottom: 40px;
+
+            h4 {
+              font-size: 14px;
+            }
+
+            p {
+              font-size: 13px;
+              margin-left: 4px;
+            }
           }
         }
       }

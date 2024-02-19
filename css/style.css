@@ -53,6 +53,7 @@ body header .header-inner {
   color: #707070;
   font-size: 20px;
   padding-top: 20px;
+  margin: 0 20px;
 }
 body header .header-inner h1 a {
   border: 1px solid #707070;
@@ -121,7 +122,7 @@ body main #portfolio .portfolio-inner .portfolio-all .portfolio-column div.on {
   opacity: 1;
 }
 body main #portfolio .portfolio-inner .website {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 body main #portfolio .portfolio-inner .skill {
   background-color: #fff;
@@ -169,13 +170,14 @@ body main #about .about-inner .about-image.on {
   opacity: 1;
 }
 body main #about .about-inner .info {
-  margin-bottom: 40px;
   opacity: 0;
   line-height: 1.8;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 40px;
 }
 body main #about .about-inner .info p {
   margin: 0 auto;
-  width: 250px;
 }
 body main #about .about-inner .info.on {
   opacity: 1;
@@ -218,4 +220,72 @@ body footer .footer-inner nav ul li {
 }
 body footer .footer-inner nav ul li:first-child {
   margin-right: 30px;
+}
+
+#works {
+  background-color: #F3ECE4;
+}
+#works header {
+  height: 100px;
+}
+#works main .works-top {
+  padding: 70px 0 50px;
+}
+#works main .works-top p {
+  font-size: 15px;
+}
+#works main .works-top h2 {
+  font-size: 20px;
+}
+#works main .works-image {
+  width: 100%;
+  margin: 0 auto 100px;
+}
+#works main .works-image .image {
+  width: 60%;
+  margin: 0 auto;
+}
+#works main .works-image .image img {
+  width: 100%;
+}
+#works main .works-image .url {
+  display: flex;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+}
+#works main .overview {
+  margin-bottom: 100px;
+}
+#works main .overview h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#works main .overview .overview-inner {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 70px 30px;
+  margin: 0 20px;
+}
+#works main .overview .overview-inner section {
+  margin-bottom: 70px;
+}
+#works main .overview .overview-inner section h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  background-color: #F3ECE4;
+  width: 200px;
+  text-align: center;
+  padding: 4px 0px;
+  border-radius: 7px;
+}
+#works main .overview .overview-inner section p {
+  font-size: 15px;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+#works main .overview .overview-inner section:last-child {
+  margin-bottom: inherit;
 }/*# sourceMappingURL=style.css.map */
