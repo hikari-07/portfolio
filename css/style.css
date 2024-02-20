@@ -153,45 +153,45 @@ body main #portfolio .portfolio-inner .skill.on {
 body main .lb-image {
   width: 100% !important;
 }
-body main #about {
+body main .about-zone {
   background-color: #DCD1C8;
 }
-body main #about .about-inner {
+body main .about-zone .about-inner {
   padding-top: 100px;
   padding-bottom: 130px;
 }
-body main #about .about-inner .about-image {
+body main .about-zone .about-inner .about-image {
   margin: 0 auto 30px auto;
   width: -moz-fit-content;
   width: fit-content;
   opacity: 0;
 }
-body main #about .about-inner .about-image.on {
+body main .about-zone .about-inner .about-image.on {
   opacity: 1;
 }
-body main #about .about-inner .info {
+body main .about-zone .about-inner .info {
   opacity: 0;
   line-height: 1.8;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto 40px;
 }
-body main #about .about-inner .info p {
+body main .about-zone .about-inner .info p {
   margin: 0 auto;
 }
-body main #about .about-inner .info.on {
+body main .about-zone .about-inner .info.on {
   opacity: 1;
 }
-body main #about .about-inner .career {
+body main .about-zone .about-inner .career {
   padding: 0 30px;
   opacity: 0;
 }
-body main #about .about-inner .career p {
+body main .about-zone .about-inner .career p {
   max-width: 700px;
   line-height: 2.1;
   margin: 0 auto;
 }
-body main #about .about-inner .career.on {
+body main .about-zone .about-inner .career.on {
   opacity: 1;
 }
 body footer {
