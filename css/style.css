@@ -73,7 +73,6 @@ body main .main-visual {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  opacity: 0;
 }
 body main .main-visual .main-message {
   padding-top: 40vh;
@@ -83,9 +82,6 @@ body main .main-visual .main-message h2 {
 }
 body main .main-visual .main-message .main-p {
   font-size: 12px;
-}
-body main .main-visual.on {
-  opacity: 1;
 }
 body main h2.title {
   font-size: 30px;
