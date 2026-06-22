@@ -4,13 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>サンプル建設｜Studio lab.｜Hikari Nagado's portfolio site</title>
+  <title>自主制作（架空サイト） 杜の庭どうぶつ病院杜の庭どうぶつ病院｜Studio lab.｜Hikari Nagado's portfolio site</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/lightbox.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(function () {
+      $('.bxslider').bxSlider({
+        auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+        mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+        speed: 600, // アニメーションのスピード　（初期値: 500）
+        pause: 4000, // 画像の切り替わる間隔　（初期値: 4000）
+        pager: true, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+        controls: false // 左右の矢印の表示・非表示　（初期値: true）
+      });
+    });
+  </script>
 </head>
 
 <body id="works">
@@ -28,55 +42,161 @@
   </header>
   <main>
     <div class="works-top inner">
-      <p>Webサイト</p>
-      <h2>建設会社向け サンプルサイト</h2>
+      <p>自主制作（架空サイト）</p>
+      <h2>動物病院 公式サイト</h2>
     </div>
     <div class="works-image inner">
-      <div class="image">
-        <a href="https://allsite.sakura.ne.jp/sample_kensetsu/" target="_blank">
-          <img src="images/works-3.png" alt="サンプル建設">
+      <div class="mockup">
+        <a href="https://hikari-07.github.io/morinoniwa/" target="_blank">
+          <img src="images/works_3.png" alt="杜の庭どうぶつ病院">
         </a>
       </div>
       <div class="url">
         <p class="text">サイトURL：</p>
-        <a href="https://allsite.sakura.ne.jp/sample_kensetsu/"
-          target="_blank">https://allsite.sakura.ne.jp/sample_kensetsu/</a>
+        <a href="https://hikari-07.github.io/morinoniwa/" target="_blank">https://hikari-07.github.io/morinoniwa/</a>
+      </div>
+      <div class="images inner">
+        <div class=" bxslider">
+          <div><img src="images/morinoniwa_image1.png" alt=""></div>
+          <div><img src="images/morinoniwa_image2.png" alt=""></div>
+          <div><img src="images/morinoniwa_image3.png" alt=""></div>
+        </div>
       </div>
     </div>
-    <div class="overview inner">
-      <h3>概要</h3>
-      <div class="overview-inner">
-        <section>
-          <h4>設定</h4>
-          <p>クライアント：建設会社を顧客のターゲットにしているWeb制作会社。</p>
-          <p>ターゲット：自社サイトの制作を検討している建設会社。</p>
-          <p>目的／狙い：Webサイト制作に関してあまり知見がない人でも、イメージが沸きやすいよう本サイトをサンプルとして活用し、最終的に契約に繋げる。</p>
-          <p>流入経路：商談、営業</p>
-        </section>
-        <section>
-          <h4>コンセプト</h4>
-          <p>・誠実さと清潔感を表現</p>
-          <p>オレンジやベージュなどの暖色系を使用し、サイト全体として統一感を持たせ、安心感のある雰囲気をイメージした。</p>
-          <p>・写真やイラストを多用</p>
-          <p>来院したことがない人に院の雰囲気をできる限り具体的にイメージしてもらえるように写真やイラストを多く設置し、親しみやすさを意識した。</p>
-        </section>
-        <section>
-          <h4>担当工程</h4>
-          <p> 設計／ワイヤーフレーム作成／デザイン／コーディング</p>
-        </section>
-        <section>
-          <h4>使用ツール・言語</h4>
-          <p>HTML、SCSS（コーディング）</p>
-          <p>JavaScript（動的型付け）</p>
-          <p>CMS実装（WordPress）</p>
-          <p>XD（ワイヤーフレーム作成、デザイン）</p>
-          <p>Photoshop、Illustrator（画像加工、トリミング）</p>
-        </section>
-        <section>
-          <h4>制作期間</h4>
-          <p> 1ヶ月半</p>
-        </section>
-      </div>
+    </div>
+    <div class="description inner">
+      <section>
+        <div class="title">
+          <h3>Background</h3>
+          <p>制作背景</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>クライアント</dt>
+            <dd>沖縄県西原町に実在する動物病院</dd>
+          </div>
+          <div class="content">
+            <dt>ターゲット</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>ペットを飼っている近隣住民。</li>
+                <li>トリミング、ペットホテルの利用を検討している人。</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>目的・狙い</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>診察や予防接種、トリミングやペットホテルの利用を検討している人に来院してもらう。</li>
+                <li>院内の雰囲気を伝える。</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>要望</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>安心して来院してもらえるように、優しい雰囲気にしたい。</li>
+                <li>院内の様子が伝わるようにしたい。</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Concept</h3>
+          <p>コンセプト</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>与えたいイメージ</dt>
+            <dd>安心感、温かみ、親近感、清潔感</dd>
+          </div>
+          <div class="content">
+            <dt>フォント</dt>
+            <dd>Shippori Mincho</dd>
+          </div>
+          <div class="content">
+            <dt>カラー</dt>
+            <dd class="color-div">
+              <ul class="color-box-all morinoniwa-cb">
+                <li>
+                  <div class="cb1 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb2 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb3 color-box"></div>
+                </li>
+              </ul>
+              <p>温かみを感じ、安心感のある印象にするため、落ち着いたベージュ系のカラーをベースに、アクセントカラーにオレンジを使用して統一感を意識しました。</p>
+            </dd>
+        </dl>
+      </section>
+      <section class="point">
+        <div class="title">
+          <h3>Point</h3>
+          <p>ポイント</p>
+        </div>
+        <dl>
+          <div class="point-content point-content1">
+            <dt>◾️安心感や温かさを重視したデザイン</dt>
+            <dd>
+              オレンジやベージュなどの暖色系カラーを使用したり、イラストを取り入れたりすることで温かみのある雰囲気を表現した。また、院内の画像を多く掲載することで、雰囲気を具体的にイメージしてもらい親しみやすさを感じられるように意識した。
+            </dd>
+          </div>
+          <div class="point-content point-content2">
+            <dt>◾️欲しい情報に迷わず辿り着けるシンプルな構成</dt>
+            <dd>診察内容やアクセス情報など、ユーザーが特に欲しい情報に迷わず辿り着けるように、シンプルな構成にした。</dd>
+          </div>
+          <div class="point-content">
+            <div class="point-img">
+              <div class="img">
+                <img src="images/morinoniwa_point1.png" alt="">
+              </div>
+              <div class="img">
+                <img src="images/morinoniwa_point2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Overview</h3>
+          <p>概要</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>作業工程</dt>
+            <dd>企画／設計／ワイヤーフレーム作成／デザイン／コーディング</dd>
+          </div>
+          <div class="content">
+            <dt>使用ツール・言語</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>HTML、SCSS（コーディング）</li>
+                <li>XD（ワイヤーフレーム作成、デザイン）</li>
+                <li>Photoshop、Illustrator（画像加工、トリミング）</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>制作期間</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>&#9632; 1ヶ月</li>
+                <li class="li-seisaku">企画：4日</li>
+                <li class="li-seisaku">設計、デザイン：1週間</li>
+                <li class="li-seisaku">コーディング：2週間</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
     </div>
   </main>
   <footer>

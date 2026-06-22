@@ -56,33 +56,39 @@
       .works-image {
         margin-bottom: 70px;
 
+        .mockup {
+          width: 70%;
+        }
+
         .url {
           font-size: 13px;
         }
+
+        .bx-wrapper {
+          margin: 0 10px 120px;
+        }
       }
 
-      .overview {
-        h3 {
-          font-size: 22px;
-          margin-bottom: 10px;
-        }
+      .description {
+        section {
+          margin: 0 10px 120px;
 
-        .overview-inner {
-          padding: 54px 30px;
-          margin: 0 auto;
+          dl {
 
-          section {
-            margin-bottom: 50px;
-
-            h4 {
-              font-size: 15px;
-              width: 180px;
+            .content {
+              padding: 40px 20px;
             }
 
-            p {
-              font-size: 14px;
-              margin-left: 10px;
-              line-height: 1.7;
+            .point-content {
+              padding: 0 20px 40px;
+
+              .point-img {
+                width: 100%;
+              }
+            }
+
+            .point-content1 {
+              padding-top: 40px;
             }
           }
         }
@@ -93,6 +99,8 @@
 
 @media screen and (max-width:480px) {
   body {
+    font-size: 13px;
+
     header {
       .header-inner {
         h1 {
@@ -161,11 +169,11 @@
     main {
       .works-top {
         p {
-          font-size: 12px;
+          font-size: 13px;
         }
 
         h2 {
-          font-size: 16px;
+          font-size: 18px;
         }
       }
 
@@ -177,30 +185,50 @@
         }
 
         .url {
-          font-size: 11px;
+          font-size: 13px;
         }
       }
 
-      .overview {
-        margin-bottom: 60px;
+      .description {
+        section {
+          margin: 0 auto 120px;
 
-        h3 {
-          font-size: 20px;
-        }
+          dl {
 
-        .overview-inner {
-          padding: 40px 20px;
+            .content {
+              padding: 20px 10px;
+              flex-direction: column;
 
-          section {
-            margin-bottom: 40px;
+              dt {
+                width: inherit;
+                font-weight: bold;
+                padding-bottom: 10px;
+                font-size: 18px;
+              }
 
-            h4 {
-              font-size: 14px;
+              .color-div {
+                .color-box-all {
+                  justify-content: center;
+                }
+              }
             }
 
-            p {
-              font-size: 13px;
-              margin-left: 4px;
+            .point-content {
+              padding: 0 auto 20px;
+
+              dt {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+              }
+
+              .point-img {
+                flex-direction: column;
+              }
+            }
+
+            .point-content1 {
+              padding-top: 20px;
             }
           }
         }

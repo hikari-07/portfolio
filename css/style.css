@@ -11,7 +11,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: serif, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "游ゴシック", "Yu Gothic", "ＭＳ Ｐゴシック", "MS PGothic";
-  font-size: 16px;
+  font-size: 15px;
   color: #1E1F1F;
 }
 body h1,
@@ -128,7 +128,7 @@ body main #portfolio .portfolio-inner .skill {
 body main #portfolio .portfolio-inner .skill .skill-inner {
   padding: 50px 30px;
 }
-body main #portfolio .portfolio-inner .skill .skill-inner h3 {
+body main #portfolio .portfolio-inner .skill .skill-inner h2 {
   font-size: 30px;
   width: -moz-fit-content;
   width: fit-content;
@@ -186,6 +186,8 @@ body main .about-zone .about-inner .career p {
   max-width: 700px;
   line-height: 2.1;
   margin: 0 auto;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 body main .about-zone .about-inner .career.on {
   opacity: 1;
@@ -231,57 +233,165 @@ body footer .footer-inner nav ul li:first-child {
   font-size: 15px;
 }
 #works main .works-top h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 #works main .works-image {
   width: 100%;
   margin: 0 auto 100px;
 }
-#works main .works-image .image {
+#works main .works-image .mockup {
   width: 60%;
   margin: 0 auto;
 }
-#works main .works-image .image img {
+#works main .works-image .mockup img {
   width: 100%;
 }
 #works main .works-image .url {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   width: -moz-fit-content;
   width: fit-content;
   font-size: 14px;
 }
-#works main .overview {
-  margin-bottom: 100px;
+#works main .works-image .bx-wrapper {
+  margin: 0 30px 120px;
 }
-#works main .overview h3 {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 30px;
+#works main .description {
+  margin-bottom: 120px;
 }
-#works main .overview .overview-inner {
+#works main .description section {
+  margin: 0 30px 120px;
+}
+#works main .description section .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#works main .description section .title h3 {
+  font-size: 30px;
+  margin-right: 18px;
+}
+#works main .description section .title p {
+  font-size: 12px;
+}
+#works main .description section dl {
+  border-top: 1px solid #707070;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#works main .description section dl .content {
+  display: flex;
+  padding: 40px 30px;
+  border-bottom: 1px solid #707070;
+}
+#works main .description section dl .content dt {
+  width: 180px;
+  flex-shrink: 0;
+}
+#works main .description section dl .content dd {
+  margin-inline-start: 0px;
+  line-height: 1.8;
+}
+#works main .description section dl .content dd .list {
+  list-style: none;
+  padding: 0;
+}
+#works main .description section dl .content dd .list li {
+  position: relative;
+  padding-left: 0.8em;
+}
+#works main .description section dl .content dd .list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+#works main .description section dl .content dd ul .li-seisaku {
+  margin-left: 15px;
+}
+#works main .description section dl .content .color-div .color-box-all {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#works main .description section dl .content .color-div .color-box-all li {
+  margin-inline-start: 0px;
+}
+#works main .description section dl .content .color-div .color-box-all li .color-box {
+  width: 60px;
+  height: 60px;
+  border: 0.5px solid #707070;
+  border-radius: 10%;
+}
+#works main .description section dl .content .color-div .igamo-cb .cb1 {
   background-color: #fff;
-  border-radius: 20px;
-  padding: 70px 30px;
-  margin: 0 20px;
 }
-#works main .overview .overview-inner section {
-  margin-bottom: 70px;
+#works main .description section dl .content .color-div .igamo-cb .cb2 {
+  background-color: #FFF9E5;
 }
-#works main .overview .overview-inner section h4 {
-  font-size: 17px;
-  margin-bottom: 10px;
-  background-color: #F3ECE4;
-  width: 200px;
-  text-align: center;
-  padding: 4px 0px;
-  border-radius: 7px;
+#works main .description section dl .content .color-div .igamo-cb .cb3 {
+  background-color: #B89E5F;
 }
-#works main .overview .overview-inner section p {
-  font-size: 15px;
+#works main .description section dl .content .color-div .smaple-cb .cb1 {
+  background-color: #F7F6F5;
+}
+#works main .description section dl .content .color-div .smaple-cb .cb2 {
+  background-color: #EFF0F7;
+}
+#works main .description section dl .content .color-div .smaple-cb .cb3 {
+  background-color: #1D5C96;
+}
+#works main .description section dl .content .color-div .morinoniwa-cb .cb1 {
+  background-color: #F6F0E9;
+}
+#works main .description section dl .content .color-div .morinoniwa-cb .cb2 {
+  background-color: #EADED0;
+}
+#works main .description section dl .content .color-div .morinoniwa-cb .cb3 {
+  background-color: #F1A464;
+}
+#works main .description section dl .content .color-div .ploughmans-cb .cb1 {
+  background-color: #F7F6F5;
+}
+#works main .description section dl .content .color-div .ploughmans-cb .cb2 {
+  background-color: #E4E0DE;
+}
+#works main .description section dl .content .color-div .ploughmans-cb .cb3 {
+  background-color: #EED1CB;
+}
+#works main .description section dl .point-content {
+  padding: 0 30px 40px;
+}
+#works main .description section dl .point-content dt {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+#works main .description section dl .point-content dd {
+  line-height: 1.8;
+  margin-inline-start: 0px;
   margin-left: 20px;
-  line-height: 1.6;
 }
-#works main .overview .overview-inner section:last-child {
-  margin-bottom: inherit;
+#works main .description section dl .point-content .point-img {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  width: 80%;
+  border-bottom: none;
+}
+#works main .description section dl .point-content .point-img .img {
+  flex: 1;
+}
+#works main .description section dl .point-content .point-img .img img {
+  width: 100%;
+  display: block;
+}
+#works main .description section dl .point-content1 {
+  padding-top: 40px;
+}
+#works main .description section dl .point-content2 {
+  border-bottom: none;
+}
+#works main .description .point dl {
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
 }/*# sourceMappingURL=style.css.map */

@@ -4,13 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>中小企業向け IT補助金LP｜Studio lab.｜Hikari Nagado's portfolio site</title>
+  <title>自主制作（架空サイト） ploughman's lunch bakery｜Studio lab.｜Hikari Nagado's portfolio site</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/lightbox.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(function () {
+      $('.bxslider').bxSlider({
+        auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+        mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+        speed: 600, // アニメーションのスピード　（初期値: 500）
+        pause: 4000, // 画像の切り替わる間隔　（初期値: 4000）
+        pager: true, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+        controls: false // 左右の矢印の表示・非表示　（初期値: true）
+      });
+    });
+  </script>
 </head>
 
 <body id="works">
@@ -28,52 +42,161 @@
   </header>
   <main>
     <div class="works-top inner">
-      <p>LP</p>
-      <h2>中小企業向け リスティング広告ページ</h2>
+      <p>自主制作（架空サイト）</p>
+      <h2>Ploughman’s lunch bakery</h2>
     </div>
     <div class="works-image inner">
-      <div class="image">
-        <a href="https://hikari-07.github.io/ITLP/" target="_blank">
-          <img src="images/works-4.png" alt="IT補助金LP">
+      <div class="mockup">
+        <a href="https://hikari-07.github.io/ploughmans/" target="_blank">
+          <img src="images/works_4.png" alt="ploughman's lunch bakery">
         </a>
       </div>
       <div class="url">
         <p class="text">サイトURL：</p>
-        <a href="https://hikari-07.github.io/ITLP/" target="_blank">https://hikari-07.github.io/ITLP/</a>
+        <a href="https://hikari-07.github.io/ploughmans/" target="_blank">https://hikari-07.github.io/ploughmans/</a>
+      </div>
+      <div class="images inner">
+        <div class="bxslider">
+          <div><img src="images/ploughmans_image1.png" alt=""></div>
+          <div><img src="images/ploughmans_image2.png" alt=""></div>
+          <div><img src="images/ploughmans_image3.png" alt=""></div>
+        </div>
       </div>
     </div>
-    <div class="overview inner">
-      <h3>概要</h3>
-      <div class="overview-inner">
-        <section>
-          <h4>設定</h4>
-          <p>クライアント：中小企業向けの広告を掲載するWEB制作会社</p>
-          <p>ターゲット：ECサイトやWebサイトの制作を検討している中小企業。</p>
-          <p>目的／狙い：IT導入補助金という制度を知ってもらう。制度を利用したサイト制作について話を聞いてみたいと思わせ、最終的に契約まで繋げる。</p>
-          <p>流入経路：Web検索、リスティング広告</p>
-        </section>
-        <section>
-          <h4>コンセプト</h4>
-          <p>・必要な情報が正確に伝わるような構成とデザイン</p>
-          <p>ファーストビューにてターゲットへの訴求を行い、ページ下部に進むごとにターゲットが欲しい情報が順序立てて得られる構成を意識した。</p>
-          <p>・離脱しにくいページ構成</p>
-          <p>外部リンクをコーポレートサイトのみに限定した。</p>
-        </section>
-        <section>
-          <h4>担当工程</h4>
-          <p>設計／ワイヤーフレーム作成／デザイン／コーディング</p>
-        </section>
-        <section>
-          <h4>使用ツール・言語</h4>
-          <p>HTML、SCSS（コーディング）</p>
-          <p>XD（ワイヤーフレーム作成、デザイン）</p>
-          <p>Photoshop、Illustrator（画像加工、トリミング）</p>
-        </section>
-        <section>
-          <h4>制作期間</h4>
-          <p> 1週間</p>
-        </section>
-      </div>
+    <div class="description inner">
+      <section>
+        <div class="title">
+          <h3>Background</h3>
+          <p>制作背景</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>クライアント</dt>
+            <dd>沖縄県中頭郡北中城村に実在するカフェ</dd>
+          </div>
+          <div class="content">
+            <dt>ターゲット</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>カフェやパンが好きな20~30代女性。</li>
+                <li>周辺地域の住民や県外からの観光客。</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>目的・狙い</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>お店の世界観や魅力を知ってもらう。</li>
+                <li>SNS経由で興味を持った層をサイトの誘導し、集客につなげる。</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>要望</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>Webサイトをもつことで信頼性を高めたい。</li>
+                <li>より多くの集客につなげたい。</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Concept</h3>
+          <p>コンセプト</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>与えたいイメージ</dt>
+            <dd>ナチュラル、落ち着き、ゆったり</dd>
+          </div>
+          <div class="content">
+            <dt>フォント</dt>
+            <dd>Shippori Mincho</dd>
+          </div>
+          <div class="content">
+            <dt>カラー</dt>
+            <dd class="color-div">
+              <ul class="color-box-all ploughmans-cb">
+                <li>
+                  <div class="cb1 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb2 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb3 color-box"></div>
+                </li>
+              </ul>
+              <p>落ち着きのあるゆったりした雰囲気を表現するため、薄めのベージュ・グレーなど淡いカラーをベースに、アクセントカラーにピンクを取り入れ、柔らかい女性的な印象を感じられるようにしました。</p>
+            </dd>
+        </dl>
+      </section>
+      <section class="point">
+        <div class="title">
+          <h3>Point</h3>
+          <p>ポイント</p>
+        </div>
+        <dl>
+          <div class="point-content point-content1">
+            <dt>◾️店舗の世界観を表現したデザイン</dt>
+            <dd>
+              店舗の世界観が伝わるよう、写真を多く取り入れた。また、落ち着きのある印象と柔らかい女性らしさを表現するため、ベースカラーに淡いグレーやベージュ、アクセントカラーに薄いピンクを取り入れた。コンテンツ間の余白を多めに設け、ゆったりした印象を与えられるようにした。
+            </dd>
+          </div>
+          <div class="point-content point-content2">
+            <dt>◾️整理された情報と構成</dt>
+            <dd>ファーストビューに、需要の高い店舗情報、メニューなどのページへのリンクボタンを設け、お店の魅力を知ってもらえるよう、お知らせやブログなど発信系コンテンツを下層ページに設けた。</dd>
+          </div>
+          <div class="point-content">
+            <div class="point-img">
+              <div class="img">
+                <img src="images/ploughmans_point1.png" alt="">
+              </div>
+              <div class="img">
+                <img src="images/ploughmans_point2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Overview</h3>
+          <p>概要</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>作業工程</dt>
+            <dd>企画／設計／ワイヤーフレーム作成／デザイン／コーディング</dd>
+          </div>
+          <div class="content">
+            <dt>使用ツール・言語</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>HTML、SCSS（コーディング）</li>
+                <li>JavaScript（動的型付け）</li>
+                <li>XD（ワイヤーフレーム作成、デザイン）</li>
+                <li>Photoshop、Illustrator（画像加工、トリミング）</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>制作期間</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>&#9632; 3週間</li>
+                <li class="li-seisaku">企画：4週間</li>
+                <li class="li-seisaku">設計、デザイン1週間</li>
+                <li class="li-seisaku">コーディング：1週間</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
     </div>
   </main>
   <footer>

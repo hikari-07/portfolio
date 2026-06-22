@@ -25,31 +25,35 @@
   #works main .works-image {
     margin-bottom: 70px;
   }
+  #works main .works-image .mockup {
+    width: 70%;
+  }
   #works main .works-image .url {
     font-size: 13px;
   }
-  #works main .overview h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
+  #works main .works-image .bx-wrapper {
+    margin: 0 10px 120px;
   }
-  #works main .overview .overview-inner {
-    padding: 54px 30px;
-    margin: 0 auto;
+  #works main .description section {
+    margin: 0 10px 120px;
   }
-  #works main .overview .overview-inner section {
-    margin-bottom: 50px;
+  #works main .description section dl .content {
+    padding: 40px 20px;
   }
-  #works main .overview .overview-inner section h4 {
-    font-size: 15px;
-    width: 180px;
+  #works main .description section dl .point-content {
+    padding: 0 20px 40px;
   }
-  #works main .overview .overview-inner section p {
-    font-size: 14px;
-    margin-left: 10px;
-    line-height: 1.7;
+  #works main .description section dl .point-content .point-img {
+    width: 100%;
+  }
+  #works main .description section dl .point-content1 {
+    padding-top: 40px;
   }
 }
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
   body header .header-inner h1 {
     font-size: 13px;
   }
@@ -87,10 +91,10 @@
     font-size: 10px;
   }
   #works main .works-top p {
-    font-size: 12px;
+    font-size: 13px;
   }
   #works main .works-top h2 {
-    font-size: 16px;
+    font-size: 18px;
   }
   #works main .works-image {
     margin-bottom: 60px;
@@ -99,25 +103,36 @@
     width: 85%;
   }
   #works main .works-image .url {
-    font-size: 11px;
-  }
-  #works main .overview {
-    margin-bottom: 60px;
-  }
-  #works main .overview h3 {
-    font-size: 20px;
-  }
-  #works main .overview .overview-inner {
-    padding: 40px 20px;
-  }
-  #works main .overview .overview-inner section {
-    margin-bottom: 40px;
-  }
-  #works main .overview .overview-inner section h4 {
-    font-size: 14px;
-  }
-  #works main .overview .overview-inner section p {
     font-size: 13px;
-    margin-left: 4px;
+  }
+  #works main .description section {
+    margin: 0 auto 120px;
+  }
+  #works main .description section dl .content {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+  #works main .description section dl .content dt {
+    width: inherit;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  #works main .description section dl .content .color-div .color-box-all {
+    justify-content: center;
+  }
+  #works main .description section dl .point-content {
+    padding: 0 auto 20px;
+  }
+  #works main .description section dl .point-content dt {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #works main .description section dl .point-content .point-img {
+    flex-direction: column;
+  }
+  #works main .description section dl .point-content1 {
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=responsive.css.map */

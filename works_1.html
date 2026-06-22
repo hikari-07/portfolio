@@ -4,13 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>杜の庭どうぶつ病院｜Studio lab.｜Hikari Nagado's portfolio site</title>
+  <title>訪問介護サービス会社 コーポレートサイト 合同会社いがもー｜Studio lab.｜Hikari Nagado's portfolio site</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/lightbox.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(function () {
+      $('.bxslider').bxSlider({
+        auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+        mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+        speed: 600, // アニメーションのスピード　（初期値: 500）
+        pause: 4000, // 画像の切り替わる間隔　（初期値: 4000）
+        pager: true, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+        controls: false // 左右の矢印の表示・非表示　（初期値: true）
+      });
+    });
+  </script>
 </head>
 
 <body id="works">
@@ -28,53 +42,153 @@
   </header>
   <main>
     <div class="works-top inner">
-      <p>Webサイト</p>
-      <h2>動物病院 公式サイト</h2>
+      <p>訪問介護サービス会社 コーポレートサイト</p>
+      <h2>合同会社いがもー</h2>
     </div>
     <div class="works-image inner">
-      <div class="image">
-        <a href="https://hikari-07.github.io/morinoniwa/" target="_blank">
-          <img src="images/works-1.png" alt="杜の庭どうぶつ病院">
+      <div class="mockup">
+        <a href="https://hikari-07.github.io/igamo/" target="_blank">
+          <img src="images/works_1.png" alt="合同会社いがもーの画像">
         </a>
       </div>
       <div class="url">
         <p class="text">サイトURL：</p>
-        <a href="https://hikari-07.github.io/morinoniwa/" target="_blank">https://hikari-07.github.io/morinoniwa/</a>
+        <a href="https://hikari-07.github.io/igamo/" target="_blank">https://hikari-07.github.io/igamo/</a>
+      </div>
+      <div class="images inner">
+        <div class="bxslider">
+          <div><img src="images/igamo_image1.png" alt=""></div>
+          <div><img src="images/igamo_image2.png" alt=""></div>
+          <div><img src="images/igamo_image3.png" alt=""></div>
+        </div>
       </div>
     </div>
-    <div class="overview inner">
-      <h3>概要</h3>
-      <div class="overview-inner">
-        <section>
-          <h4>設定</h4>
-          <p>クライアント：沖縄県西原町に実在する動物病院</p>
-          <p>ターゲット：ペットを飼っており、近くの動物病院を探している人。トリミング、ペットホテルの利用を検討している人。</p>
-          <p>目的／狙い：受診や予防接種をするための来院、トリミングやペットホテルの利用に繋げる。</p>
-          <p>流入経路：Web検索</p>
-        </section>
-        <section>
-          <h4>コンセプト</h4>
-          <p>・安心感や温かさを表現</p>
-          <p>オレンジやベージュなどの暖色系を使用し、サイト全体として統一感を持たせ、安心感のある雰囲気をイメージした。</p>
-          <p>・可愛らしい写真やイラストを入れ込む</p>
-          <p>来院したことがない人が、院内の雰囲気を具体的にイメージしてもらえるように写真やイラストを多く設置し、親しみやすさを意識した。</p>
-        </section>
-        <section>
-          <h4>担当工程</h4>
-          <p> 企画／設計／ワイヤーフレーム作成／デザイン／コーディング</p>
-        </section>
-        <section>
-          <h4>使用ツール・言語</h4>
-          <p>HTML、SCSS（コーディング）</p>
-          <p>JavaScript（動的型付け）</p>
-          <p>XD（ワイヤーフレーム作成、デザイン）</p>
-          <p>Photoshop、Illustrator（画像加工、トリミング）</p>
-        </section>
-        <section>
-          <h4>制作期間</h4>
-          <p> 1ヶ月</p>
-        </section>
-      </div>
+    <div class="description inner">
+      <section>
+        <div class="title">
+          <h3>Background</h3>
+          <p>制作背景</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>クライアント</dt>
+            <dd>沖縄県沖縄市に実在する地域密着型の訪問介護サービス会社</dd>
+          </div>
+          <div class="content">
+            <dt>ターゲット</dt>
+            <dd>訪問介護サービスの利用を検討している高齢者とその家族</dd>
+          </div>
+          <div class="content">
+            <dt>目的・狙い</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>コーポレートサイトを設けることで、信頼性のある企業として認知してもらう。</li>
+                <li>サービス内容やお知らせを発信し、安心感をもって利用を検討してもらう。</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>要望</dt>
+            <dd class="dd-all">
+              <ul class="list">
+                <li>利用を検討しているお客様からの信頼性を高めたい。</li>
+                <li>集客につなげたい。</li>
+                <li>採用活動を強化したい。</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Concept</h3>
+          <p>コンセプト</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>与えたいイメージ</dt>
+            <dd>温かみ、安心感、親しみやすさ、信頼性</dd>
+          </div>
+          <div class="content">
+            <dt>フォント</dt>
+            <dd>筑紫A丸ゴシック Std・Noto Serif JP</dd>
+          </div>
+          <div class="content">
+            <dt>カラー</dt>
+            <dd class="color-div">
+              <ul class="color-box-all igamo-cb">
+                <li>
+                  <div class="cb1 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb2 color-box"></div>
+                </li>
+                <li>
+                  <div class="cb3 color-box"></div>
+                </li>
+              </ul>
+              <p>温かみのある印象をもたせるために、ベージュ系統のカラーを使用しました。</p>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section class="point">
+        <div class="title">
+          <h3>Point</h3>
+          <p>ポイント</p>
+        </div>
+        <dl>
+          <div class="point-content point-content1">
+            <dt>◾️信頼性と安心感を表現したデザイン</dt>
+            <dd>
+              地域密着型のサービスを提供していることから、まずはユーザーに親近感を与えることで信頼性を感じられるデザインにしたいと考え、ファーストビューに沖縄の写真を取り入れた。また、サイト全体をベージュ系の温かみのあるカラーを使用し、丸みのフォントを使用することで安心感を表現した。
+            </dd>
+          </div>
+          <div class="point-content point-content2">
+            <dt>◾️シンプルな導線のサイト構成</dt>
+            <dd>サービス内容や会社概要など、利用を検討する際に必要な情報を中心に構成。情報を詰めすぎず、ユーザーが迷わず目的の情報に辿り着けるよう、分かりやすい導線での設計を意識した。</dd>
+          </div>
+          <div class="point-content">
+            <div class="point-img">
+              <div class="img"><img src="images/imgamo_point1.png" alt=""></div>
+              <div class="img"><img src="images/imgamo_point2.png" alt=""></div>
+            </div>
+          </div>
+        </dl>
+      </section>
+      <section>
+        <div class="title">
+          <h3>Overview</h3>
+          <p>概要</p>
+        </div>
+        <dl>
+          <div class="content">
+            <dt>作業工程</dt>
+            <dd>企画／設計／ワイヤーフレーム作成／デザイン／コーディング</dd>
+          </div>
+          <div class="content">
+            <dt>使用ツール・言語</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>HTML、SCSS（コーディング）</li>
+                <li>XD（ワイヤーフレーム作成、デザイン）</li>
+                <li>Photoshop、Illustrator（画像加工、トリミング）</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="content">
+            <dt>制作期間</dt>
+            <dd class="dd-all">
+              <ul>
+                <li>&#9632; 3週間</li>
+                <li class="li-seisaku">企画：1週間</li>
+                <li class="li-seisaku">設計、デザイン：1週間</li>
+                <li class="li-seisaku">コーディング：1ヶ月</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+      </section>
     </div>
   </main>
   <footer>
