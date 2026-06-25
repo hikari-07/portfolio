@@ -49,6 +49,12 @@
   #works main .description section dl .point-content1 {
     padding-top: 40px;
   }
+  #works main .description .works5 {
+    margin: 0 10px 90px;
+  }
+  #works main .description .works5 .deliverables-all .deliverables {
+    margin-bottom: 70px;
+  }
 }
 @media screen and (max-width: 480px) {
   body {
@@ -105,8 +111,14 @@
   #works main .works-image .url {
     font-size: 13px;
   }
+  #works main .description {
+    margin-bottom: 80px;
+  }
   #works main .description section {
-    margin: 0 auto 120px;
+    margin: 0 auto 80px;
+  }
+  #works main .description section .title h3 {
+    font-size: 21px;
   }
   #works main .description section dl .content {
     padding: 20px 10px;
@@ -122,17 +134,36 @@
     justify-content: center;
   }
   #works main .description section dl .point-content {
-    padding: 0 auto 20px;
+    padding: 0 10px 20px;
   }
   #works main .description section dl .point-content dt {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
   }
+  #works main .description section dl .point-content dd {
+    margin-left: 0px;
+  }
   #works main .description section dl .point-content .point-img {
     flex-direction: column;
   }
   #works main .description section dl .point-content1 {
     padding-top: 20px;
+  }
+  #works main .description section .sticy .sticy-img {
+    height: 280px;
+  }
+  #works main .description .works5 {
+    margin: 0 auto 70px;
+  }
+  #works main .description .works5 .explanation {
+    margin: 0 10px;
+  }
+  #works main .description .works5 ul li {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  #works main .description .works5 .deliverables-all .deliverables-flex {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=responsive.css.map */

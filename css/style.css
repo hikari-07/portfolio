@@ -17,7 +17,8 @@ body {
 body h1,
 body h2,
 body h3,
-body h4 {
+body h4,
+body h5 {
   margin-block-start: 0em;
   margin-block-end: 0em;
   font-size: 16px;
@@ -95,8 +96,23 @@ body main #portfolio {
   padding-bottom: 130px;
 }
 body main #portfolio .portfolio-inner .portfolio-all h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-run {
+  margin-bottom: 90px;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-run .ipa {
+  opacity: 0;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-run .ipa a {
+  width: 100%;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-run .ipa a img {
+  width: 100%;
+}
+body main #portfolio .portfolio-inner .portfolio-all .portfolio-run div.on {
+  opacity: 1;
 }
 body main #portfolio .portfolio-inner .portfolio-all .portfolio-column {
   display: flex;
@@ -390,6 +406,92 @@ body footer .footer-inner nav ul li:first-child {
 }
 #works main .description section dl .point-content2 {
   border-bottom: none;
+}
+#works main .description section .sticy {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+#works main .description section .sticy .sticy-img {
+  width: 100%;
+  height: 520px;
+  overflow-y: auto;
+  background-color: #fff;
+  /* 縦スクロール */
+  border: 4px solid #fff;
+}
+#works main .description section .sticy .sticy-img img {
+  width: 100%;
+  transition: transform 8s linear;
+}
+#works main .description section .caption {
+  text-align: center;
+  margin: 0 auto 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#works main .description section .caption p {
+  font-size: 12px;
+  line-height: 1.9;
+  text-align: left;
+}
+#works main .description section .caption .center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#works main .description section .detail p {
+  line-height: 1.7;
+}
+#works main .description .works5 {
+  margin: 0 30px 100px;
+}
+#works main .description .works5 .title {
+  margin-bottom: 16px;
+}
+#works main .description .works5 .explanation {
+  margin: 0 30px;
+}
+#works main .description .works5 .explanation .explanation-div {
+  margin-bottom: 30px;
+}
+#works main .description .works5 .explanation .explanation-div h5 {
+  font-size: 16px;
+}
+#works main .description .works5 .explanation p {
+  line-height: 2;
+}
+#works main .description .works5 .explanation ul li {
+  line-height: 2;
+}
+#works main .description .works5 .deliverables-all .deliverables {
+  margin-bottom: 90px;
+}
+#works main .description .works5 .deliverables-all .deliverables h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#works main .description .works5 .deliverables-all .deliverables .deliverables-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+#works main .description .works5 .deliverables-all .deliverables .deliverables-img img {
+  width: 100%;
+}
+#works main .description .works5 .deliverables-all .last {
+  margin-bottom: 0px;
+}
+#works main .description .works5 .deliverables-all .deliverables-flex {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 30px;
+  width: 100%;
+  border-bottom: none;
+}
+#works main .description .works5 .deliverables-all .deliverables-flex .img {
+  width: 100%;
+}
+#works main .description .works5 .deliverables-all .deliverables-flex .img img {
+  width: 100%;
 }
 #works main .description .point dl {
   border-top: 1px solid #707070;
