@@ -459,8 +459,8 @@ body footer .footer-inner nav ul li:first-child {
 #works main .description .works5 .explanation p {
   line-height: 2;
 }
-#works main .description .works5 .explanation ul li {
-  line-height: 2;
+#works main .description .works5 .explanation .achievements-div {
+  margin-bottom: 30px;
 }
 #works main .description .works5 .deliverables-all .deliverables {
   margin-bottom: 90px;

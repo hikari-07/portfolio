@@ -159,6 +159,12 @@
   #works main .description .works5 .explanation {
     margin: 0 10px;
   }
+  #works main .description .works5 .explanation .achievements-div h4 {
+    font-size: 16px;
+  }
+  #works main .description .works5 .explanation .achievements-div p {
+    font-size: 13px;
+  }
   #works main .description .works5 ul li {
     font-size: 13px;
     line-height: 1.8;
