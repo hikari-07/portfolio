@@ -14,10 +14,16 @@
 
     main {
       #portfolio {
+        padding-bottom: 100px;
+
         .portfolio-inner {
           .skill {
             .skill-inner {
+              padding: 50px 20px;
+
               .skill-column {
+                width: inherit;
+
                 p {
                   font-size: 14px;
                 }
@@ -27,11 +33,16 @@
         }
       }
 
-      #about {
+      .about-zone {
         .about-inner {
+          padding-bottom: 100px;
+
           .career {
+            padding: 0px;
+
             p {
               font-size: 14px;
+              padding-bottom: 20px;
             }
           }
         }
@@ -139,6 +150,10 @@
 
         .portfolio-inner {
           .portfolio-all {
+            .portfolio-run {
+              margin-bottom: 50px;
+            }
+
             .portfolio-column {
               display: block;
 
@@ -147,13 +162,25 @@
               }
             }
           }
+
+          .skill {
+            .skill-inner {
+              padding: 40px 10px;
+
+              .skill-column {
+                .skill-div {
+                  padding: 30px 10px;
+                }
+              }
+            }
+          }
         }
       }
 
-      #about {
+      .about-zone {
         .about-inner {
           padding-top: 80px;
-          padding-bottom: 100px;
+          padding-bottom: 80px;
 
           .career {
             padding: 0px;
