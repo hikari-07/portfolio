@@ -218,11 +218,11 @@ body main .about-zone .about-inner .career {
   opacity: 0;
 }
 body main .about-zone .about-inner .career p {
-  max-width: 700px;
+  max-width: 980px;
   line-height: 2.1;
   margin: 0 auto;
-  padding-bottom: 10px;
-  font-size: 14px;
+  padding-bottom: 30px;
+  font-size: 15px;
 }
 body main .about-zone .about-inner .career p:last-child {
   padding-bottom: 0px;
