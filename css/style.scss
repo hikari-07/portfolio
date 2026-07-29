@@ -376,8 +376,119 @@ body {
         font-size: 14px;
       }
 
-      .bx-wrapper {
-        margin: 0 30px 120px;
+      .sticy-images {
+        .sticy {
+          background-color: #fff;
+          margin-bottom: 10px;
+
+          .sticy-img {
+            width: 100%;
+            height: 520px;
+            overflow-y: auto;
+            background-color: #fff;
+            /* 縦スクロール */
+            border: 4px solid #fff;
+
+            img {
+              width: 100%;
+              transition: transform 8s linear;
+            }
+          }
+        }
+
+        .caption {
+          text-align: center;
+          margin: 0 auto 20px;
+          width: fit-content;
+
+          p {
+            font-size: 12px;
+            line-height: 1.9;
+            text-align: left;
+          }
+
+          .center {
+            text-align: center;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+
+      .wrap {
+        .wrap-img {
+
+          .popup-img {
+            width: 100%;
+            cursor: zoom-in;
+            display: block;
+          }
+        }
+      }
+
+      // .image-dialog {
+      //   border: none;
+      //   padding: 20px;
+      //   background: transparent;
+
+      //   &::backdrop {
+      //     background: rgba(0, 0, 0, .8);
+      //   }
+
+      //   .dialog-img {
+      //     display: block;
+      //     max-width: 100vw;
+      //     max-height: 90vh;
+      //   }
+      // }
+
+      .image-dialog {
+        width: 95vw;
+        max-width: 1400px;
+        max-height: 90vh;
+        margin: auto;
+        padding: 60px 24px 30px;
+        border: none;
+        background: transparent;
+        overflow: auto;
+
+        &::backdrop {
+          background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .dialog-img {
+          display: block;
+          width: auto;
+          max-width: 100%;
+          height: auto;
+          margin: 0 auto;
+        }
+
+        .dialog-close {
+          position: fixed;
+          top: 20px;
+          right: 30px;
+          z-index: 10000;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 48px;
+          height: 48px;
+          padding: 0;
+          border: 1px solid #fff;
+          border-radius: 50%;
+
+          background-color: rgba(0, 0, 0, 0.75);
+          color: #fff;
+
+          font-size: 36px;
+          font-family: Arial, sans-serif;
+          line-height: 1;
+
+          cursor: pointer;
+        }
       }
     }
 
@@ -518,6 +629,62 @@ body {
                   background-color: #EED1CB;
                 }
               }
+
+              .igamo-recruit-cb {
+                .cb1 {
+                  background-color: #FFFFFF;
+                }
+
+                .cb2 {
+                  background-color: #FFF9E5;
+                }
+
+                .cb3 {
+                  background-color: #E27510;
+                }
+              }
+
+              .IT-hojo-cb {
+                .cb1 {
+                  background-color: #FFFFFF;
+                }
+
+                .cb2 {
+                  background-color: #1e5692;
+                }
+
+                .cb3 {
+                  background-color: #fffa82;
+                }
+              }
+
+              .connect-cb {
+                .cb1 {
+                  background-color: #EBE7E1;
+                }
+
+                .cb2 {
+                  background-color: #414549;
+                }
+
+                .cb3 {
+                  background-color: #A39C96;
+                }
+              }
+
+              .asaitogei-cb {
+                .cb1 {
+                  background-color: #191919;
+                }
+
+                .cb2 {
+                  background-color: #F3F1E8;
+                }
+
+                .cb3 {
+                  background-color: #ffffff;
+                }
+              }
             }
           }
 
@@ -533,6 +700,10 @@ body {
               line-height: 1.8;
               margin-inline-start: 0px;
               margin-left: 20px;
+            }
+
+            .sticy {
+              margin-top: 34px;
             }
 
             .point-img {
@@ -561,6 +732,8 @@ body {
           .point-content2 {
             border-bottom: none;
           }
+
+
         }
 
         .sticy {
